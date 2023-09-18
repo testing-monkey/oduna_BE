@@ -1,0 +1,15 @@
+USER_TEST_REGISTRATIONS_INFO = {
+    "email": "philip@gmail.com",
+    "password": "Philip@35678",
+    "first_name": "increase",
+    "last_name": "odeyemi",
+    "middle_name": "Ayobami",
+    "street": "No 17 Adegbemileke street Afromed",
+    "state": "Lagos",
+    "city": "Ojo",
+    "region": "AF",
+    "country": "NG",
+    "contact_no": "+2347068448489",
+    "date_of_birth": "1999-07-08",
+    "gender": "MALE",
+}

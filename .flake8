@@ -1,0 +1,18 @@
+[flake8]
+ignore = C101,D403,F405,I100,I201,W503,W504,E722,A003,I101,C901,BLK100,B001,E203,A002,I202, B006
+exclude = 
+    .git,
+    .mypy_cache,
+    __pycache__,
+    *venv*,
+    *migrations*
+filename = *.py
+accept-encodings = utf-8
+inline-quotes = single
+max-complexity = 12
+max-linenumber = 500
+max-line-length = 350
+multiline-quotes = double
+per-file-ignores = 
+    TheSchoolProjectAPI/project/settings/templates/settings.dev.py: F821, W292, W293
+    local/settings.dev.py: W292, W293

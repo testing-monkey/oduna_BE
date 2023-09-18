@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block content %}
+<center>
+  <p>Hi {{name}},</p>
+
+  <p>
+    You recently requested to change your <strong>Notification Email</strong>. Click the
+    button below to proceed.
+  </p>
+  <p>
+    click <a href="{{link}}">here</a> or paste the link below in your browser
+  </p>
+  <p>{{token}}</p>
+  <p>
+    If you did not request to change your notification email, please ignore this email or reply
+    to let us know. This to email link is only valid for the next 30
+    minutes.
+  </p>
+
+  <p>Thanks, the [customer portal] team</p>
+</center>
+{% endblock %}

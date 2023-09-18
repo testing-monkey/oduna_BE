@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "oduna_BE/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "oduna_BE/wsgi.py"
+    }
+  ]
+}
